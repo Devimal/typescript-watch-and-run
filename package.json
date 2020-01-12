@@ -1,23 +1,22 @@
 {
-  "name": "typescript-watch-and-run",
-  "version": "1.0.0",
-  "description": "How to watch and run a typescript project on every code change",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Devimal/typescript-watch-and-run.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Devimal/typescript-watch-and-run/issues"
-  },
-  "homepage": "https://github.com/Devimal/typescript-watch-and-run#readme",
-  "devDependencies": {
-    "typescript": "^3.7.4"
-  }
+    "name": "typescript-watch-and-run",
+    "version": "1.0.0",
+    "description": "How to watch and run a typescript project on every code change",
+    "scripts": {
+        "start": "tsc && node dist/main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Devimal/typescript-watch-and-run.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Devimal/typescript-watch-and-run/issues"
+    },
+    "homepage": "https://github.com/Devimal/typescript-watch-and-run#readme",
+    "devDependencies": {
+        "typescript": "^3.7.4"
+    }
 }
